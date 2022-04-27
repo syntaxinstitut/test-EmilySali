@@ -1,11 +1,76 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Einkaufslisten-App</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 <body>
-<!-- ToDo: Schreibe innerhalb der html-Tags dieses Dokumentes die Lösungen für Aufgabe1, Aufgabe2 und Aufgabe3 -->
 
+<header>
+    <h1>Einkaufsliste</h1>
+    <nav>
+        <label>
+            <input type="text" placeholder="Artikel hinzufügen">
+        </label>
+        <button class="material-icons" style="vertical-align: bottom">add_circle</button>
+    </nav>
+</header>
+
+<hr>
+
+<main>
+    <section>
+        <h2>Einkaufen
+            <i style="float:right" class="material-icons">expand_less</i>
+        </h2>
+        <dl>
+            <dt style="background-color: lightblue">Obst & Gemüse
+                <i style="float:right" class="material-icons">expand_less</i>
+            </dt>
+            <dd><label><input type="checkbox"> Brokkoli</label></dd>
+            <dt style="background-color: lightblue">Getreideprodukte
+                <i style="float:right" class="material-icons">expand_less</i>
+            </dt>
+            <dd><label><input type="checkbox"> Reis</label></dd>
+            <dt style="background-color: lightblue">Milchprodukte
+                <i style="float:right" class="material-icons">expand_less</i>
+            </dt>
+            <dd><label><input type="checkbox"> Streukäse</label></dd>
+        </dl>
+    </section>
+    <hr>
+    <section>
+        <h2>Erledigt
+            <i style="float:right" class="material-icons">expand_less</i>
+        </h2>
+        <dl>
+            <dt style="background-color: lightblue">Hülsenfrüchte
+                <i style="float:right" class="material-icons">expand_less</i>
+            </dt>
+            <dd><label><input type="checkbox" checked> <s>Bohnen</s></label></dd>
+        </dl>
+    </section>
+</main>
+<hr>
+
+<footer>
+    <nav>
+        <button><a href="gruppen.html">
+            <span class="material-icons">bookmark_add</span>Gruppen
+        </button>
+
+        <button><a href="artikelpflege.html">
+            <span class="material-icons">sort</span> Sortieren
+        </button>
+        <button><a href="setup.html">
+            <span class="material-icons">settings</span> Einstellungen
+        </button>
+    </nav>
+</footer>
 </body>
+
+
 </html>
