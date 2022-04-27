@@ -12,6 +12,7 @@
  */
 function aufgabe2() {
   console.debug("Aufgabe 2 ==========================");
+  let land = "Spanien";
   console.debug(land);
 }
 
